@@ -52,7 +52,7 @@ module.exports = {
     get: [],
     create: [
       async context => {
-        context.result.user = await context.app.service('users').get(context.result.user_id);
+        context.result.user = await context.app.service('users').get(context.result.user_id).name;
         return context;
       }
     ],

@@ -20,7 +20,10 @@
       <div class="mt-5">
         <div class="uppercase tracking-wide font-bold text-darkblue">IT COMES EQUIPPED</div>
         <h1 class="font-poppins text-4xl md:text-5xl font-bold text-darkblue">Tailored for Teachers and Students</h1>
-        <p class="text-gray-800 text-xl md:text-2xl mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p class="text-gray-800 text-xl md:text-2xl mt-2">
+          Gekko offers a seamless product that will help you and your school stay connected while practicing social distancing.
+          The best part is, it is free! No more costly fees for your school district!
+        </p>
       </div>
       <div class="hidden md:block ml-10 mt-20">
         <img src="@/assets/static/learning.svg" alt="learning image by undraw">
@@ -29,11 +32,13 @@
 
     <div class="flex flex-row-reverse justify-center w-4/5 mx-auto mb-20 mt-20 md:mb-40 md:mt-40">
       <div class="mt-5">
-        <div class="uppercase tracking-wide font-bold text-darkblue">IT COMES EQUIPPED</div>
-        <h1 class="font-poppins text-4xl md:text-5xl font-bold text-darkblue">Tailored for Teachers and Students</h1>
-        <p class="text-gray-800 text-xl md:text-2xl mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="uppercase tracking-wide font-bold text-darkblue">REALTIME COMMUNICATION</div>
+        <h1 class="font-poppins text-4xl md:text-5xl font-bold text-darkblue">Ask And Answer Questions In Realtime</h1>
+        <p class="text-gray-800 text-xl md:text-2xl mt-2">
+          Gekko's realtime forum allows for students, teachers, and parents to ask and answer questions. Its like magic!
+        </p>
       </div>
-      <div class="hidden md:block mr-20 mt-20">
+      <div class="hidden md:block mr-20 mt-20 max-w-xl">
         <img src="@/assets/static/learning.svg" alt="learning image by undraw">
       </div>
     </div>

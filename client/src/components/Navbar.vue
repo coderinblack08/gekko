@@ -1,12 +1,10 @@
 <template>
   <nav 
     :class="{ 
-      'bg-purple-100': $route.name==='Schools' 
-                       || $route.name==='PostQuestion', 
-      'bg-green-100': $route.name==='Create', 
+      'bg-purple-100': $route.name==='Schools' || $route.name==='PostQuestion', 
       'bg-yellow-100': $route.name==='Join',
       'bg-blue-100': $route.name==='School' || $route.name==='Question',
-      'bg-green-100': $route.name==='Forum'
+      'bg-green-100': $route.name==='Forum' || $route.name==='Create'
     }" 
     class="text-gray-700 body-font font-poppins"
   >
