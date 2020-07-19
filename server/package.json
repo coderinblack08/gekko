@@ -1,0 +1,68 @@
+{
+  "name": "gekko-2-api",
+  "description": "Gekko Api",
+  "version": "0.0.0",
+  "homepage": "",
+  "private": true,
+  "main": "src",
+  "keywords": [
+    "feathers"
+  ],
+  "author": {
+    "name": "coderinblack",
+    "email": ""
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src",
+    "test": "test/",
+    "config": "config/"
+  },
+  "engines": {
+    "node": "^14.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run jest",
+    "lint": "standard",
+    "dev": "nodemon src/",
+    "start": "node src/",
+    "jest": "jest  --forceExit"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ],
+    "ignore": []
+  },
+  "dependencies": {
+    "@feathersjs/authentication": "^4.5.6",
+    "@feathersjs/authentication-local": "^4.5.6",
+    "@feathersjs/authentication-oauth": "^4.5.6",
+    "@feathersjs/configuration": "^4.5.5",
+    "@feathersjs/errors": "^4.5.5",
+    "@feathersjs/express": "^4.5.6",
+    "@feathersjs/feathers": "^4.5.5",
+    "@feathersjs/socketio": "^4.5.6",
+    "@feathersjs/transport-commons": "^4.5.5",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "feathers-authentication-hooks": "^1.0.2",
+    "feathers-hooks-common": "^5.0.3",
+    "feathers-mongoose": "^8.3.1",
+    "helmet": "^3.23.3",
+    "mongodb-core": "^3.2.7",
+    "mongoose": "^5.9.25",
+    "nanoid": "^3.1.10",
+    "serve-favicon": "^2.5.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "jest": "^26.1.0",
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4"
+  }
+}
