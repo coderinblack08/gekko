@@ -60,7 +60,7 @@
     "winston": "^3.3.3"
   },
   "devDependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "jest": "^26.1.0",
     "nodemon": "^2.0.4",
     "standard": "^14.3.4"
